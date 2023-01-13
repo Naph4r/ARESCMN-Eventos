@@ -1,0 +1,148 @@
+.page-header{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200 !important;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+    border-bottom:none !important;
+  }
+
+  p{
+text-align: left;
+}
+
+  
+/*  12. FLOAT
+/*================*/
+
+#div-box {
+
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+
+#div-box:hover,
+#div-box:focus,
+#div-box:active {
+-webkit-transform: translateY(-6px);
+transform: translateY(-6px);
+}
+
+/* 12. FLOAT */
+
+#div-box {
+  max-width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: black;
+  background-size: 300% 100%;
+  text-decoration: none !important;
+
+  moz-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+
+  background-color: #eaeaea;
+  background: linear-gradient(to right, #eaeaea, #dfdddd);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.5);
+  
+}
+
+
+
+@-webkit-keyframes backgroundgradient {
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
+}
+@-moz-keyframes backgroundgradient {
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
+}
+@keyframes backgroundgradient {
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
+}
+
+#div-box:hover{
+  background: linear-gradient(309deg, #36b9f0, #3779dc, #25dff3, #3779dc, #369bcd, #16d3f2, #1e9db9, #369bcd, #16d3f2, #1e9db9);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: backgroundgradient 32s ease infinite;
+  -moz-animation: backgroundgradient 32s ease infinite;
+  animation: backgroundgradient 32s ease infinite;
+
+}
+
+#img-box{
+border-radius: 5px;
+}
+
+
+.caption{
+text-align: center;
+}
+
+
+.content{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+#title-thumb{
+font-family: Tahoma, Geneva, sans-serif  ;
+font-weight: 600;
+font-size: 14px;
+color: #4f4f4f;
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+} 
+
+.modal-backdrop {
+  position: inherit !important;
+}
+
+.modal-body{
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center ;
+}
+
+.modal-img{
+max-width: 600px;
+max-height: 400px ;
+
+}
+
+.modal-title{
+text-align: center;
+}
+
+.modal-footer {
+padding: 15px;
+text-align: left;
+border-top: 1px solid #e5e5e5;
+}
+
+
+
+.link-drive1{
+text-align: center;
+}
